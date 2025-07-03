@@ -1,0 +1,9 @@
+
+include README.md
+include LICENSE
+include requirements.txt
+include .web3scanrc.example
+recursive-include web3sec_framework/templates *.yaml
+recursive-include web3sec_framework/docs *.md
+recursive-include web3sec_framework/examples *.sol *.js *.ts
+recursive-include tests *.py
